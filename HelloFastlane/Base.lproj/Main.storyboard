@@ -27,10 +27,10 @@
             </objects>
             <point key="canvasLocation" x="-623" y="124"/>
         </scene>
-        <!--Human-->
+        <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Human" id="BYZ-38-t0r" customClass="FirstViewController" customModule="HelloFastlane" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Home" id="BYZ-38-t0r" customClass="FirstViewController" customModule="HelloFastlane" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -39,8 +39,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Fastlane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVz-aY-txY">
-                                <rect key="frame" x="103" y="144" width="168.5" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Fastlane!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVz-aY-txY">
+                                <rect key="frame" x="99" y="144" width="177" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <color key="textColor" red="0.3139568861" green="0.64281088080000004" blue="0.37715495669999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -63,7 +63,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.99834624102456437" green="1" blue="0.083994220424151722" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="c9f-Nl-5HC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2TT-XB-A7l"/>
                             <constraint firstItem="c9f-Nl-5HC" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="2/3" id="6Dy-rC-H31"/>
@@ -81,10 +81,10 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
-        <!--Fastlane-->
+        <!--Second View Controller-->
         <scene sceneID="7Na-yP-ZFY">
             <objects>
-                <viewController title="Fastlane" id="SgY-bt-1Uq" customClass="SecondViewController" customModule="HelloFastlane" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SgY-bt-1Uq" customClass="SecondViewController" customModule="HelloFastlane" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hXf-MC-hbd"/>
                         <viewControllerLayoutGuide type="bottom" id="y02-sg-6gR"/>
@@ -132,10 +132,10 @@
             </objects>
             <point key="canvasLocation" x="889" y="124"/>
         </scene>
-        <!--Human-->
+        <!--Third View Controller-->
         <scene sceneID="pvJ-lX-po0">
             <objects>
-                <viewController title="Human" id="Xid-Vn-7uo" customClass="ThirdViewController" customModule="HelloFastlane" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Xid-Vn-7uo" customClass="ThirdViewController" customModule="HelloFastlane" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TGh-FZ-OWr"/>
                         <viewControllerLayoutGuide type="bottom" id="GFJ-oy-sd6"/>
@@ -183,10 +183,10 @@
             </objects>
             <point key="canvasLocation" x="1650" y="124"/>
         </scene>
-        <!--Fastlane-->
+        <!--Fourth View Controller-->
         <scene sceneID="k1G-Ot-568">
             <objects>
-                <viewController title="Fastlane" id="LOn-QJ-s91" customClass="FourthViewController" customModule="HelloFastlane" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LOn-QJ-s91" customClass="FourthViewController" customModule="HelloFastlane" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2XH-vF-kmu"/>
                         <viewControllerLayoutGuide type="bottom" id="p6S-hV-Xnx"/>
@@ -195,9 +195,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pfff!! I know!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZB-nf-lQb">
-                                <rect key="frame" x="102" y="100" width="168.5" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pfff!! I know!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZB-nf-lQb">
+                                <rect key="frame" x="111.5" y="144" width="152" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <color key="textColor" red="0.9529411793" green="0.68627452850000004" blue="0.13333334029999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -225,7 +224,9 @@
                         <constraints>
                             <constraint firstItem="Erk-c1-x3h" firstAttribute="centerX" secondItem="kag-mu-7j9" secondAttribute="centerX" id="7p2-2x-1BJ"/>
                             <constraint firstItem="Erk-c1-x3h" firstAttribute="centerY" secondItem="kag-mu-7j9" secondAttribute="centerY" id="BVc-AB-fzp"/>
+                            <constraint firstItem="bZB-nf-lQb" firstAttribute="top" secondItem="2XH-vF-kmu" secondAttribute="bottom" constant="80" id="LFb-0v-xnQ"/>
                             <constraint firstItem="Erk-c1-x3h" firstAttribute="width" secondItem="kag-mu-7j9" secondAttribute="width" multiplier="1/2.5" id="ODb-93-iaP"/>
+                            <constraint firstItem="bZB-nf-lQb" firstAttribute="centerX" secondItem="kag-mu-7j9" secondAttribute="centerX" id="Oo0-TT-Vsv"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -233,10 +234,10 @@
             </objects>
             <point key="canvasLocation" x="2385" y="124"/>
         </scene>
-        <!--Human-->
+        <!--Final View Controller-->
         <scene sceneID="ZaL-4H-CNH">
             <objects>
-                <viewController title="Human" id="Ptr-hV-83O" customClass="FinalViewController" customModule="HelloFastlane" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ptr-hV-83O" customClass="FinalViewController" customModule="HelloFastlane" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fsB-XZ-Qmq"/>
                         <viewControllerLayoutGuide type="bottom" id="5Ph-Mu-iDi"/>
